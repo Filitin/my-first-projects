@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple-crypto-byte"
+version = "0.1.0"
+description = "Tiny byte-shift encryptor (educational)"
+readme = "README.md"
+authors = [{ name = "Oleksandr Dobriuk" }]
+requires-python = ">=3.8"
+
+[tool.setuptools]
+package-dir = {"" = "src"}          
+
+[tool.setuptools.packages.find]
+where = ["src"]   
+
+[project.scripts]
+simple-crypto = "simple_crypto.__main__:main"

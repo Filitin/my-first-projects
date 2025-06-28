@@ -35,6 +35,7 @@ pip install -e .
 ---
 # Quick start
 ## Encrypt any file
-    python -m simple_crypto.cli encrypt secret.txt 42 -o secret.enc
+    python -m simple_crypto encrypt secret.txt 42 -o secret.enc
 ## Deciphering
-    python -m simple_crypto.cli decrypt secret.enc 42 -o secret.txt
+    python -m simple_crypto decrypt secret.enc 42 -o secret.txt
+
