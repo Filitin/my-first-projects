@@ -1,2 +1,0 @@
-[console_scripts]
-simple-crypto = simple_crypto.__main__:main
